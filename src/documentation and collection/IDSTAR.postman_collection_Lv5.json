@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "2f1ed47b-84e1-465a-9bc5-f442f51fd130",
 		"name": "IDSTAR",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "21952276"
 	},
 	"item": [
@@ -25,18 +25,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -55,20 +47,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -80,18 +59,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -110,20 +81,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -164,18 +122,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -194,20 +144,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -219,18 +156,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -249,20 +178,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -303,18 +219,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -333,20 +241,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -358,18 +253,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -388,20 +275,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -442,18 +316,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -472,20 +338,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -497,18 +350,10 @@
 					"request": {
 						"auth": {
 							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "password",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "admin@mail.com",
-									"type": "string"
-								}
-							]
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -527,20 +372,7 @@
 								}
 							]
 						},
-						"url": {
-							"raw": "http://localhost:7788/v1/idstar/karyawan/list",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "7788",
-							"path": [
-								"v1",
-								"idstar",
-								"karyawan",
-								"list"
-							]
-						}
+						"url": "http://localhost:7788/v1/idstar/karyawan/list"
 					},
 					"response": []
 				},
@@ -557,6 +389,117 @@
 					"request": {
 						"method": "GET",
 						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Oauth",
+			"item": [
+				{
+					"name": "Register Email User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"username\": \"mo.taufiqaa@gmail.com\",\r\n\"phone_number\" : \"08123\",\r\n\"domicile\" : \"Jakarta\",\r\n\"gender\" : \"Laki-laki\",\r\n\"password\" : \"password\",\r\n\"fullname\" : \"M Taufiq\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:7788/api/user-register/register"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Token",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "mo.taufiqaa@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "my-client-apps",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": "http://localhost:7788/api/oauth/token"
+					},
+					"response": []
+				},
+				{
+					"name": "Send OTP (Email)",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "password",
+								"username": "admin@mail.com"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"mo.taufiqaa@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:7788/api/user-register/send-otp"
+					},
+					"response": []
+				},
+				{
+					"name": "Activated Email",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Sign Google",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:7788/api/user-register/register-confirm-otp/363231"
 					},
 					"response": []
 				}
