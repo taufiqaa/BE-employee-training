@@ -22,14 +22,20 @@ public class User implements UserDetails, Serializable {
     @Column(length = 100,unique=true)
     private String username;
 
-    @Column(length = 100,unique=true)
-    private String username1;
-
     @Column(length = 100, nullable = true)
     private String fullname;
 
     @JsonIgnore
     private String password;
+
+    @JsonIgnore
+    private String phoneNumber;
+
+    @JsonIgnore
+    private String domicile;
+
+    @JsonIgnore
+    private String gender;
 
     @JsonIgnore
     private String verifyToken;
@@ -145,14 +151,6 @@ public class User implements UserDetails, Serializable {
         return enabled;
     }
 
-    public String getUsername1() {
-        return username1;
-    }
-
-    public void setUsername1(String username1) {
-        this.username1 = username1;
-    }
-
     public String getFullname() {
         return fullname;
     }
@@ -191,6 +189,30 @@ public class User implements UserDetails, Serializable {
 
     public void setOtpExpiredDate(Date otpExpiredDate) {
         this.otpExpiredDate = otpExpiredDate;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getDomicile() {
+        return domicile;
+    }
+
+    public void setDomicile(String domicile) {
+        this.domicile = domicile;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 }
 
